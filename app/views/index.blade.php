@@ -1,5 +1,20 @@
 @include('includes/header')<!--header file added here-->
 
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="/">Home</a></li>
+				<li><a href="#">Performance</a></li>
+				<li><a href="/analysis">Analysis</a></li>
+				<li><a href="#">Strategy</a></li>
+				<li><a href="/calender">Calender</a></li>
+				<li><a href="#">Broker</a></li>
+				<li><a href="#">Bonus</a></li>
+				<li><a href="#">Download</a></li>
+				<li><a href="#">About</a></li>
+			</ul>   
+		</div><!-- end of .navbar-collapse -->
+	</nav><!--end of nav-->
+</div><!--end of nav div-->
 
 	<div class="market_watch_api_code"><!--start of market watck api code-->
 		<h4><!-- EXCHANGERATES.ORG.UK LIVE FOREX RATES TICKER START -->
@@ -184,6 +199,5 @@ var vc = '000044';
 			</div><!--end of column1-->
 		</div><!--end of new row for showing forex risk warning-->
 		
-				
 
 @include('includes/footer')<!--footer file added here-->

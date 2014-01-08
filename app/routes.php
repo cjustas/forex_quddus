@@ -15,3 +15,9 @@ Route::get('/', function()
 {
 	return View::make('index');
 });
+Route::get('/calender',function(){
+	return View::make('calender');
+});
+Route::get('/analysis',function(){
+	return View::make('analysis');
+});
